@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Productos de Clientes</title>
+  <link rel="stylesheet" href="style.css">
+    <!-- PayPal SDK: cliente proporcionado por el usuario -->
+    <script src="https://www.paypal.com/sdk/js?client-id=cliente-id" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1>Productos de Clientes</h1>
+    <input id="search" placeholder="Buscar producto..." aria-label="Buscar producto" />
+  </header>
+
+  <main>
+    <section id="products" class="grid"></section>
+  </main>
+
+  <footer>
+    <small>Sitio demo — despliegue gratuito: GitHub Pages o Netlify</small>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="products.js"></script>
+</body>
+</html>

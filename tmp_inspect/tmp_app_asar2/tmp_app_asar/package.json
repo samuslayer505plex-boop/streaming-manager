@@ -1,0 +1,17 @@
+{
+  "name": "sampix-tec-program",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "electron-main.cjs",
+  "dependencies": {
+    "pinia": "^3.0.4",
+    "vue": "^3.5.32",
+    "vue-router": "^4.6.4"
+  },
+  "description": "Gestor de streaming de escritorio",
+  "author": "Tu Nombre",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}
