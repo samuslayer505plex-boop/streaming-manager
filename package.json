@@ -8,7 +8,9 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bcryptjs": "^3.0.3"
+  },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.0",
     "electron": "^31.0.0",
